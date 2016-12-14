@@ -57,6 +57,7 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
+    <Compile Include="Console.cs" />
     <Compile Include="Elf.cs" />
     <Compile Include="GreenWoodenToyMakingElf.cs" />
     <Compile Include="NaughtyChildToy.cs" />
