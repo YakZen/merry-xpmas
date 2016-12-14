@@ -1,2 +1,5 @@
 .vs/XpMan.XmasTree/v14/.suo
-/XpMan.XmasTree.Tests/bin
+XpMan.XmasTree.Tests/bin/
+XpMan.XmasTree.Tests/obj/
+XpMan.XmasTree/bin/
+XpMan.XmasTree/obj/

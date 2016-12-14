@@ -1,7 +1,0 @@
-C:\Dev\Git\katas\merry-xpmas\XpMan.XmasTree.Tests\bin\Debug\XpMan.XmasTree.Tests.dll
-C:\Dev\Git\katas\merry-xpmas\XpMan.XmasTree.Tests\bin\Debug\XpMan.XmasTree.Tests.pdb
-C:\Dev\Git\katas\merry-xpmas\XpMan.XmasTree.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
-C:\Dev\Git\katas\merry-xpmas\XpMan.XmasTree.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
-C:\Dev\Git\katas\merry-xpmas\XpMan.XmasTree.Tests\obj\Debug\XpMan.XmasTree.Tests.csprojResolveAssemblyReference.cache
-C:\Dev\Git\katas\merry-xpmas\XpMan.XmasTree.Tests\obj\Debug\XpMan.XmasTree.Tests.dll
-C:\Dev\Git\katas\merry-xpmas\XpMan.XmasTree.Tests\obj\Debug\XpMan.XmasTree.Tests.pdb
