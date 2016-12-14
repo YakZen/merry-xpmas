@@ -53,6 +53,12 @@
     <Compile Include="OhSanta.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\XpMan.XmasTree\XpMan.XmasTree.csproj">
+      <Project>{335ba040-82b9-43a2-a6cd-03e1f9770538}</Project>
+      <Name>XpMan.XmasTree</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
       <ItemGroup>
