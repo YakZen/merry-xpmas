@@ -1,7 +1,17 @@
 namespace XpMan.XmasTree
 {
-  public abstract class Elf
-  {
+    public interface IElf
+    {
+        void TellSanta(string type, string child);
+        bool OnNaughtyList(string child);
+        Toy MakePresent(string child);
+        string Name { get; }
+        
+
+    }
+
+    public abstract class Elf 
+    {
     private readonly Santa _santa;
 
     protected Elf(Santa santa)
