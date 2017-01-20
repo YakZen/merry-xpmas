@@ -31,8 +31,8 @@ namespace XpMan.XmasTree
         {"Susan", new GreenWoodenToyMakingElf(this).MakePresent("Susan")},
         {"Bad Tom", new GreenWoodenToyMakingElf(this).MakePresent("Bad Tom")},
         {"John", new WoodenToyMakingElf(this).MakePresent("John")},
-        {"Sarah", new SpaceshipToyMakingElf(this, "", "Train").MakePresent("Sarah")},
-        {"Andy", new SpaceshipToyMakingElf(this, "Plastic", "Spaceship").MakePresent("Sarah")},
+        {"Sarah", new ToyMakingElf(this, "", "Train").MakePresent("Sarah")},
+        {"Andy", new ToyMakingElf(this, "Plastic", "Spaceship").MakePresent("Sarah")},
         {"Good Tom", new RedWoodenToyMakingElf(this).MakePresent("Good Tom")},
       };
     }
