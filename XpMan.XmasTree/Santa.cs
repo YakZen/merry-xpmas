@@ -32,7 +32,7 @@ namespace XpMan.XmasTree
         {"Bad Tom", new GreenWoodenToyMakingElf(this).MakePresent("Bad Tom")},
         {"John", new WoodenToyMakingElf(this).MakePresent("John")},
         {"Sarah", new ToyMakingElf(this).MakePresent("Sarah")},
-        {"Andy", new PlasticToyMakingElf(this).MakePresent("Sarah")},
+        {"Andy", new SpaceshipToyMakingElf(this, "Plastic", "Spaceship").MakePresent("Sarah")},
         {"Good Tom", new RedWoodenToyMakingElf(this).MakePresent("Good Tom")},
       };
     }

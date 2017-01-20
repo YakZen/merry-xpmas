@@ -1,12 +1,16 @@
 ﻿namespace XpMan.XmasTree
 {
-  public class PlasticToyMakingElf : IElf
+  public class SpaceshipToyMakingElf : IElf
   {
       private readonly Santa _santa;
+      private readonly string _material;
+      private readonly string _toyType;
 
-      public PlasticToyMakingElf(Santa santa) 
+      public SpaceshipToyMakingElf(Santa santa, string material, string toyType)
       {
           _santa = santa;
+          _material = material;
+          _toyType = toyType;
       }
 
       public void TellSanta(string type, string child)
@@ -23,7 +27,7 @@
     {
       if (!OnNaughtyList(child))
       {
-        var toyType = "Plastic Spaceship";
+        var toyType = _material + " " + _toyType;
         this.TellSanta(toyType, child);
         return new Toy(toyType);
       }
@@ -33,6 +37,6 @@
       }
     }
 
-    public string Name { get { return "Plastic Toy Making Elf"; } }
+    public string Name => $"{_material} Toy Making Elf";
   }
 }

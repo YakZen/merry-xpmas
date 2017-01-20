@@ -61,7 +61,7 @@
     <Compile Include="Elf.cs" />
     <Compile Include="GreenWoodenToyMakingElf.cs" />
     <Compile Include="NaughtyChildToy.cs" />
-    <Compile Include="PlasticToyMakingElf.cs" />
+    <Compile Include="SpaceshipToyMakingElf.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="RedWoodenToyMakingElf.cs" />
     <Compile Include="Santa.cs" />
