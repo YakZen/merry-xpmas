@@ -4,8 +4,7 @@
   {
       private readonly Santa _santa;
       private readonly string _material;
-      private readonly string _toyType;
-
+      private string _toyType;
       public SpaceshipToyMakingElf(Santa santa, string material, string toyType)
       {
           _santa = santa;
@@ -27,9 +26,13 @@
     {
       if (!OnNaughtyList(child))
       {
-        var toyType = _material + " " + _toyType;
-        this.TellSanta(toyType, child);
-        return new Toy(toyType);
+          if (_material != "")
+          {
+              _toyType = _material + " " + _toyType;
+          }
+        
+        TellSanta(_toyType, child);
+        return new Toy(_toyType);
       }
       else
       {
@@ -37,6 +40,6 @@
       }
     }
 
-    public string Name => $"{_material} Toy Making Elf";
+    public string Name => _material == "" ? "Toy Making Elf" : $"{_material} Toy Making Elf";
   }
 }
